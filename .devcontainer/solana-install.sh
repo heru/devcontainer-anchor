@@ -9,7 +9,7 @@ export PATH="/home/ubuntu/.local/share/solana/install/active_release/bin:$PATH"
 sudo npm install -g mocha
 sudo npm install -g typescript ts-node
 
-sudo cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
+cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
 
 avm install latest && avm use latest
 
