@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
-sh -c "$(curl -sSfL https://release.solana.com/v1.16.10/install)"
+sh -c "$(curl -sSfL https://release.solana.com/v1.16.12/install)"
 
 source $HOME/.cargo/env
 

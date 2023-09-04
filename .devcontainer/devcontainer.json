@@ -1,5 +1,5 @@
 {
-	"dockerComposeFile": "docker-compose.yml",
+	"dockerComposeFile": "../docker-compose.yml",
 	"remoteUser": "user",
 	"service": "solana",
 	"workspaceFolder": "/home/ubuntu/apps"
